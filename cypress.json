@@ -1,0 +1,21 @@
+{
+    "viewportHeight": 1080,
+	"viewportWidth": 1920,
+	"watchForFileChanges": false,
+	"waitForAnimations": true,
+	"numTestsKeptInMemory": 30,
+	"defaultCommandTimeout": 15000,
+	"requestTimeout": 15000,
+	"failOnStatusCode": false,
+    "experimentalSessionAndOrigin": true,
+    "blockHosts": [
+		"static.hotjar.com",
+		"google-analytics.com/",
+		"sjs.bizographics.com/",
+		"googleadservices.com/",
+		"connect.facebook.net/",
+		"stats.pusher.com",
+		"js.intercomcdn.com",
+		"stats.pusher.com"
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": false,
+		"outDir": "./dist/",
+		"baseUrl": "./",
+		"paths": {
+			"@constants/*": [
+				"./cypress/constants/*"
+			],
+			"@pages/*": [
+				"./cypress/pages/*"
+			],
+			"@helpers/*": [
+				"./cypress/helpers/*"
+			]
+		},
+		"module": "es6",
+		"target": "es6",
+		"allowJs": true,
+		"types": [
+			"cypress",
+			"cypress-file-upload"
+		],
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"esModuleInterop": true
+	},
+	"include": [
+		"**/*.ts"
+	]
+}
