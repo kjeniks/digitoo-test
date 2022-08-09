@@ -1,3 +1,5 @@
+// npx cypress run
+
 import { faker } from "@faker-js/faker";
 
 let newClient = {
